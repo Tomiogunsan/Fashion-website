@@ -1,0 +1,66 @@
+.shopper{
+    max-width: 1040px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+   
+}
+
+.shopper img{
+    max-width: 512px;
+}
+
+.shopper h2{
+    padding-top: 30%;
+    
+}
+
+.shopper span{
+    color: #593cfb;
+
+}
+
+.shopper p{
+    font-size: 1rem;
+    color: #333;
+    padding: 1.5rem 0;
+}
+
+.shopper button{
+    background-color: #593cfb;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 18px;
+    border: none;
+}
+
+.shopper button:hover{
+    background-color: #4733b7;
+    transition: background-color 1s;
+}
+
+
+@media screen and (max-width: 920px){
+    .shopper{
+        grid-template-columns: 1fr;
+    }
+
+    .shopper .left{
+        display: flex;
+        justify-content: center;
+    }
+
+    .shopper img{
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .shopper h2{
+        padding-top: 10%;
+        
+    }
+
+}
